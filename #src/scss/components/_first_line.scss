@@ -2,7 +2,8 @@
    width: 100%;
    height: 900px;
    max-height: 900px;
-   background: url("img/banner/mainBG.png") no-repeat center;
+   background-color: pink;
+
    background-size: cover;
    @media (max-width: 400px) {
       min-width: 400px;
