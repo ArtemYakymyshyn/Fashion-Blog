@@ -1,0 +1,82 @@
+.footerLine {
+   width: 100%;
+   margin-top: 100px;
+   .footerLine__wrk {
+      max-width: 1170px;
+      margin: 0px auto;
+      @media (max-width: 400px) {
+         min-width: 400px;
+      }
+      .footerLine__wrk__row {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         .footerLine__wrk__row__text-element {
+            @include mainLogo;
+            margin-bottom: 59px;
+         }
+         .footerLine__wrk__row__list-element {
+            width: 40%;
+            margin-bottom: 49px;
+            @media (max-width: 794px) {
+               width: 80%;
+            }
+            & ul {
+               display: flex;
+               justify-content: space-between;
+               & li {
+                  & a {
+                     font-weight: 400;
+                     font-size: 14px;
+                     line-height: 18px;
+                     color: #666666;
+                     transition-duration: 0.5s;
+                     &:hover {
+                        color: crimson;
+                        letter-spacing: $hoverLetterSpacingLinksHeader;
+                     }
+                  }
+               }
+            }
+         }
+         .footerLine__wrk__row__logos {
+            display: flex;
+            justify-content: space-between;
+            width: 35%;
+            @media (max-width: 794px) {
+               width: 72%;
+            }
+            .footerLine__wrk__row__logo {
+               width: 34px;
+               height: 34px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border: 1px solid #e5e5e5;
+               border-radius: 50%;
+
+               transition-property: all;
+               transition-duration: 0.5s;
+               transition-delay: 0s;
+               transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+               &:hover {
+                  background-color: red;
+               }
+            }
+         }
+         .footerLine__wrk__row__horizontalLine {
+            width: 100%;
+            border: 1px solid #e5e5e5;
+            margin-top: 40px;
+            margin-bottom: 30px;
+         }
+         .footerLine__wrk__row__bottomText {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #666666;
+         }
+      }
+   }
+}
