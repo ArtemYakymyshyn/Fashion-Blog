@@ -4,9 +4,11 @@
   "description": "starter pack of site",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d FashionBlog"
   },
   "author": "",
+  "homepage": "https://artemyakymyshyn.github.io/Fashion-Blog",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.4",
