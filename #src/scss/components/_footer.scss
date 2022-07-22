@@ -33,7 +33,7 @@
                      color: #666666;
                      transition-duration: 0.5s;
                      &:hover {
-                        color: crimson;
+                        color: $goldColor;
                         letter-spacing: $hoverLetterSpacingLinksHeader;
                      }
                   }
@@ -61,7 +61,7 @@
                transition-delay: 0s;
                transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
                &:hover {
-                  background-color: red;
+                  background-color: $goldColor;
                }
             }
          }

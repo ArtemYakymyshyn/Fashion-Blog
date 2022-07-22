@@ -39,6 +39,12 @@
                      width: 46%;
                      height: 411px;
                      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+                     transition-duration: 0.5s;
+                     &:hover {
+                        background-color: rgba(201, 169, 110, 0.4);
+                        position: relative;
+                        bottom: 10px;
+                     }
                      @media (max-width: 768px) {
                         width: 70%;
                      }
@@ -86,6 +92,12 @@
                width: 90%;
                box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
                margin-bottom: 20px;
+               transition-duration: 0.5s;
+               &:hover {
+                  background-color: rgba(201, 169, 110, 0.4);
+                  position: relative;
+                  bottom: 9px;
+               }
                .mainElementOne-Content__bigBlock-img {
                   width: 100%;
                   height: 60%;
@@ -217,6 +229,12 @@
                      height: 50px;
                      background: #ffffff;
                      @include mainElementOne-Content__block__mainText;
+                     transition-duration: 0.5s;
+                     &:hover {
+                        background-color: $goldColor;
+                        color: white;
+                        letter-spacing: 2.8px;
+                     }
                   }
                }
                .secondLine-mainElementTwoContent__block {
@@ -225,7 +243,12 @@
                   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
                   position: relative;
                   margin-bottom: 30px;
-
+                  transition-duration: 0.5s;
+                  &:hover {
+                     position: relative;
+                     bottom: 6px;
+                     background-color: rgba(201, 169, 110, 0.4);
+                  }
                   .secondLine-mainElementTwoContent__img {
                      width: 100%;
                      height: 50%;
@@ -268,7 +291,7 @@
                         transition-duration: 0.5s;
                         @include mainElementOne-Content__block__title;
                         &:hover {
-                           background-color: crimson;
+                           background-color: $goldColor;
                            color: white;
                            letter-spacing: $hoverLetterSpacingLogo;
                         }
@@ -281,6 +304,11 @@
                   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
                   position: relative;
                   margin-bottom: 30px;
+                  &:hover {
+                     position: relative;
+                     bottom: 6px;
+                     background-color: rgba(201, 169, 110, 0.4);
+                  }
                   .secondLine-mainElementTwoContent__img {
                      width: 100%;
                      height: 60%;
@@ -325,9 +353,25 @@
                      justify-content: space-between;
                      border-bottom: 1px solid #e5e5e5;
                      margin-bottom: 11px;
-                     & p {
-                        @include secondLine-mainElementTwoContent__aboutPerson;
-                        margin-bottom: 17px;
+                     transition-duration: 0.5s;
+                     border-radius: 10px;
+
+                     .secondLine-mainElementTwoContent__category__wrk {
+                        width: 96%;
+                        margin: 0px auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        & p {
+                           @include secondLine-mainElementTwoContent__aboutPerson;
+                           margin-bottom: 17px;
+                        }
+                     }
+                     &:hover {
+                        background-color: rgba(201, 169, 110, 0.8);
+                        & p {
+                           color: white;
+                        }
                      }
                   }
                }
@@ -354,6 +398,12 @@
                            text-align: center;
                            color: #999999;
                         }
+                        &:hover {
+                           background-color: rgba(201, 169, 110, 0.8);
+                           & p {
+                              color: white;
+                           }
+                        }
                      }
                   }
                }
@@ -376,6 +426,10 @@
                      color: #666666;
                      margin-bottom: 16px;
                      background: #f8f9fa;
+                     &:hover {
+                        background-color: rgba(201, 169, 110, 0.8);
+                        color: white;
+                     }
                   }
                }
             }

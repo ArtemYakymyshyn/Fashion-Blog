@@ -63,16 +63,10 @@ span {
 
                         &:hover {
                            letter-spacing: $hoverLetterSpacingLinksHeader;
-                           color: crimson;
+                           color: $goldColor;
                            @media (max-width: 768px) {
                               color: white;
                            }
-                        }
-                     }
-                     .activiButtonLink {
-                        color: $goldColor;
-                        @media (max-width: 768px) {
-                           color: white;
                         }
                      }
                   }
