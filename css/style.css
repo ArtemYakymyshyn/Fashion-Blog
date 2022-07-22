@@ -162,7 +162,7 @@ span {
 }
 
 .header .header__headerLine .header__headerLine__wrk .header__headerLine__wrk__row .headerLine-elementOne a:hover {
-  letter-spacing: 5.8px;
+  letter-spacing: 5.5px;
   color: #ffffff;
   color: #444444;
   background: #ffffff;
@@ -193,11 +193,7 @@ span {
 }
 
 .header .header__headerLine .header__headerLine__wrk .header__headerLine__wrk__row .headerLine-elementTwo ul li a:hover {
-  letter-spacing: 2.8px;
-  color: crimson;
-}
-
-.header .header__headerLine .header__headerLine__wrk .header__headerLine__wrk__row .headerLine-elementTwo ul li .activiButtonLink {
+  letter-spacing: 0;
   color: #c9a96e;
 }
 
@@ -349,6 +345,15 @@ span {
   height: 411px;
   -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementOne .mainElementOne-Content__blockOfNewsEinz .mainElementOne-Content__blockRow .mainElementOne-Content__block:hover {
+  background-color: rgba(201, 169, 110, 0.4);
+  position: relative;
+  bottom: 10px;
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementOne .mainElementOne-Content__blockOfNewsEinz .mainElementOne-Content__blockRow .mainElementOne-Content__block .mainElementOne-Content__block__img {
@@ -420,6 +425,15 @@ span {
   -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementOne .mainElementOne-Content__bigPieceOfNews:hover {
+  background-color: rgba(201, 169, 110, 0.4);
+  position: relative;
+  bottom: 9px;
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementOne .mainElementOne-Content__bigPieceOfNews .mainElementOne-Content__bigBlock-img {
@@ -603,6 +617,15 @@ span {
   line-height: 28px;
   text-align: center;
   color: #171717;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__button button:hover {
+  background-color: #c9a96e;
+  color: white;
+  letter-spacing: 2.8px;
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__block {
@@ -612,6 +635,15 @@ span {
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   margin-bottom: 30px;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__block:hover {
+  position: relative;
+  bottom: 6px;
+  background-color: rgba(201, 169, 110, 0.4);
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__block .secondLine-mainElementTwoContent__img {
@@ -678,9 +710,9 @@ span {
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__block .secondLine-mainElementTwoContent__continue button:hover {
-  background-color: crimson;
+  background-color: #c9a96e;
   color: white;
-  letter-spacing: 5.8px;
+  letter-spacing: 5.5px;
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__blockPost {
@@ -690,6 +722,12 @@ span {
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   margin-bottom: 30px;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__blockPost:hover {
+  position: relative;
+  bottom: 6px;
+  background-color: rgba(201, 169, 110, 0.4);
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__blockPost .secondLine-mainElementTwoContent__img {
@@ -764,15 +802,41 @@ span {
           justify-content: space-between;
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 11px;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-radius: 10px;
 }
 
-.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__categories .secondLine-mainElementTwoContent__category p {
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__categories .secondLine-mainElementTwoContent__category .secondLine-mainElementTwoContent__category__wrk {
+  width: 96%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__categories .secondLine-mainElementTwoContent__category .secondLine-mainElementTwoContent__category__wrk p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
   color: #666666;
   margin-bottom: 17px;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__categories .secondLine-mainElementTwoContent__category:hover {
+  background-color: rgba(201, 169, 110, 0.8);
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__categories .secondLine-mainElementTwoContent__category:hover p {
+  color: white;
 }
 
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__social-media {
@@ -817,6 +881,14 @@ span {
   color: #999999;
 }
 
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__social-media .secondLine-mainElementTwoContent__social-media__row .secondLine-mainElementTwoContent__social-media__element:hover {
+  background-color: rgba(201, 169, 110, 0.8);
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__social-media .secondLine-mainElementTwoContent__social-media__row .secondLine-mainElementTwoContent__social-media__element:hover p {
+  color: white;
+}
+
 .secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__button__tags {
   margin-top: 50px;
   width: 100%;
@@ -849,6 +921,11 @@ span {
   color: #666666;
   margin-bottom: 16px;
   background: #f8f9fa;
+}
+
+.secondLine .secondLine__wrk .secondLine__mainRow .secondLine__mainElementTwo .secondLine__mainElementTwoContent__wrk .secondLine-mainElementTwoContent__tags__row .secondLine-mainElementTwoContent__tag:hover {
+  background-color: rgba(201, 169, 110, 0.8);
+  color: white;
 }
 
 .third-line {
@@ -961,8 +1038,8 @@ span {
 }
 
 .footerLine .footerLine__wrk .footerLine__wrk__row .footerLine__wrk__row__list-element ul li a:hover {
-  color: crimson;
-  letter-spacing: 2.8px;
+  color: #c9a96e;
+  letter-spacing: 0;
 }
 
 .footerLine .footerLine__wrk .footerLine__wrk__row .footerLine__wrk__row__logos {
@@ -1004,7 +1081,7 @@ span {
 }
 
 .footerLine .footerLine__wrk .footerLine__wrk__row .footerLine__wrk__row__logos .footerLine__wrk__row__logo:hover {
-  background-color: red;
+  background-color: #c9a96e;
 }
 
 .footerLine .footerLine__wrk .footerLine__wrk__row .footerLine__wrk__row__horizontalLine {
@@ -1125,10 +1202,6 @@ span {
   }
 
   .header .header__headerLine .header__headerLine__wrk .header__headerLine__wrk__row .headerLine-elementTwo ul li a:hover {
-    color: white;
-  }
-
-  .header .header__headerLine .header__headerLine__wrk .header__headerLine__wrk__row .headerLine-elementTwo ul li .activiButtonLink {
     color: white;
   }
 
